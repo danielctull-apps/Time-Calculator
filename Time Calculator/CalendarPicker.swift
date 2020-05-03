@@ -55,7 +55,7 @@ struct CalendarPicker: View {
                     Text(output)
                 }
             }
-            .navigationBarTitle("Time", displayMode: .inline)
+            .navigationBarTitle("Time Calculator", displayMode: .inline)
         }
     }
 }

@@ -23,7 +23,7 @@
 		24172DDA232AA348003E5624 /* Calendar.Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.Identifier.swift; sourceTree = "<group>"; };
 		24172DDC232AA3B6003E5624 /* Picker+CaseIterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Picker+CaseIterable.swift"; sourceTree = "<group>"; };
 		24172DE0232AA695003E5624 /* TimeZone.Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZone.Identifier.swift; sourceTree = "<group>"; };
-		247E9380232A9FD900525685 /* Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Time.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		247E9380232A9FD900525685 /* Time Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		247E9383232A9FD900525685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		247E9385232A9FD900525685 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		247E9387232A9FD900525685 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		247E9377232A9FD900525685 = {
 			isa = PBXGroup;
 			children = (
-				247E9382232A9FD900525685 /* Time */,
+				247E9382232A9FD900525685 /* Time Calculator */,
 				247E9381232A9FD900525685 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		247E9381232A9FD900525685 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				247E9380232A9FD900525685 /* Time.app */,
+				247E9380232A9FD900525685 /* Time Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		247E9382232A9FD900525685 /* Time */ = {
+		247E9382232A9FD900525685 /* Time Calculator */ = {
 			isa = PBXGroup;
 			children = (
 				247E9383232A9FD900525685 /* AppDelegate.swift */,
@@ -76,7 +76,7 @@
 				24172DDA232AA348003E5624 /* Calendar.Identifier.swift */,
 				24172DE0232AA695003E5624 /* TimeZone.Identifier.swift */,
 			);
-			path = Time;
+			path = "Time Calculator";
 			sourceTree = "<group>";
 		};
 		247E938B232A9FDA00525685 /* Preview Content */ = {
@@ -90,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		247E937F232A9FD900525685 /* Time */ = {
+		247E937F232A9FD900525685 /* Time Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 247E9394232A9FDA00525685 /* Build configuration list for PBXNativeTarget "Time" */;
+			buildConfigurationList = 247E9394232A9FDA00525685 /* Build configuration list for PBXNativeTarget "Time Calculator" */;
 			buildPhases = (
 				247E937C232A9FD900525685 /* Sources */,
 				247E937D232A9FD900525685 /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = Time;
+			name = "Time Calculator";
 			productName = Time;
-			productReference = 247E9380232A9FD900525685 /* Time.app */;
+			productReference = 247E9380232A9FD900525685 /* Time Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 247E937B232A9FD900525685 /* Build configuration list for PBXProject "Time" */;
+			buildConfigurationList = 247E937B232A9FD900525685 /* Build configuration list for PBXProject "Time Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				247E937F232A9FD900525685 /* Time */,
+				247E937F232A9FD900525685 /* Time Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -301,15 +301,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Time/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Time Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = B2M757K4LG;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Time/Info.plist;
+				INFOPLIST_FILE = "Time Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.danieltull.Time;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.Time-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,15 +321,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Time/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Time Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = B2M757K4LG;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Time/Info.plist;
+				INFOPLIST_FILE = "Time Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.danieltull.Time;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.Time-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		247E937B232A9FD900525685 /* Build configuration list for PBXProject "Time" */ = {
+		247E937B232A9FD900525685 /* Build configuration list for PBXProject "Time Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				247E9392232A9FDA00525685 /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		247E9394232A9FDA00525685 /* Build configuration list for PBXNativeTarget "Time" */ = {
+		247E9394232A9FDA00525685 /* Build configuration list for PBXNativeTarget "Time Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				247E9395232A9FDA00525685 /* Debug */,
