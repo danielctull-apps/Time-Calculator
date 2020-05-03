@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24172DDB232AA348003E5624 /* Calendar.Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24172DDA232AA348003E5624 /* Calendar.Identifier.swift */; };
+		24172DDD232AA3B6003E5624 /* Picker+CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24172DDC232AA3B6003E5624 /* Picker+CaseIterable.swift */; };
+		24172DE1232AA695003E5624 /* TimeZone.Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24172DE0232AA695003E5624 /* TimeZone.Identifier.swift */; };
 		247E9384232A9FD900525685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E9383232A9FD900525685 /* AppDelegate.swift */; };
 		247E9386232A9FD900525685 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E9385232A9FD900525685 /* SceneDelegate.swift */; };
 		247E9388232A9FD900525685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E9387232A9FD900525685 /* ContentView.swift */; };
 		247E938A232A9FDA00525685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247E9389232A9FDA00525685 /* Assets.xcassets */; };
 		247E938D232A9FDA00525685 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247E938C232A9FDA00525685 /* Preview Assets.xcassets */; };
 		247E9390232A9FDA00525685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247E938E232A9FDA00525685 /* LaunchScreen.storyboard */; };
+		247E939A232AA00300525685 /* CalendarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247E9399232AA00300525685 /* CalendarPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24172DDA232AA348003E5624 /* Calendar.Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.Identifier.swift; sourceTree = "<group>"; };
+		24172DDC232AA3B6003E5624 /* Picker+CaseIterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Picker+CaseIterable.swift"; sourceTree = "<group>"; };
+		24172DE0232AA695003E5624 /* TimeZone.Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZone.Identifier.swift; sourceTree = "<group>"; };
 		247E9380232A9FD900525685 /* Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Time.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247E9383232A9FD900525685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		247E9385232A9FD900525685 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		247E938C232A9FDA00525685 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		247E938F232A9FDA00525685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		247E9391232A9FDA00525685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247E9399232AA00300525685 /* CalendarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				247E938E232A9FDA00525685 /* LaunchScreen.storyboard */,
 				247E9391232A9FDA00525685 /* Info.plist */,
 				247E938B232A9FDA00525685 /* Preview Content */,
+				247E9399232AA00300525685 /* CalendarPicker.swift */,
+				24172DDC232AA3B6003E5624 /* Picker+CaseIterable.swift */,
+				24172DDA232AA348003E5624 /* Calendar.Identifier.swift */,
+				24172DE0232AA695003E5624 /* TimeZone.Identifier.swift */,
 			);
 			path = Time;
 			sourceTree = "<group>";
@@ -146,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24172DDB232AA348003E5624 /* Calendar.Identifier.swift in Sources */,
+				24172DE1232AA695003E5624 /* TimeZone.Identifier.swift in Sources */,
 				247E9384232A9FD900525685 /* AppDelegate.swift in Sources */,
 				247E9386232A9FD900525685 /* SceneDelegate.swift in Sources */,
 				247E9388232A9FD900525685 /* ContentView.swift in Sources */,
+				247E939A232AA00300525685 /* CalendarPicker.swift in Sources */,
+				24172DDD232AA3B6003E5624 /* Picker+CaseIterable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
